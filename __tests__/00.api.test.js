@@ -1,4 +1,6 @@
 const frisby = require('frisby');
+frisby.globalSetup({
+  timeout: 10000});
 
 describe("Day00", () => {
 it ('should return a status of 200', function () {
