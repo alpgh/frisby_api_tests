@@ -1,6 +1,6 @@
 const frisby = require("frisby");
 const apiKey =
-  "PMAK-6496e39f35af230031972da5-6060b91b5b35fb78ab76de325f485c4bf2";
+  "PMAK-6496e39f35af230031972da5-4c08447d913b9bbbaea7a16529dc2473ec";
 const Joi = frisby.Joi;
 
 describe("Day04", () => {
