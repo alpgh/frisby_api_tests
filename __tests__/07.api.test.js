@@ -1,7 +1,5 @@
 const frisby = require("frisby");
 const params = new URLSearchParams({ count: 10, api_key: "DEMO_KEY" });
-frisby.globalSetup({
-    timeout: 10000});
 
 describe("Day07", () => {
   it("Check status 200", function () {
@@ -16,4 +14,4 @@ describe("Day07", () => {
         console.log(filteredResponse); 
       });
   });
-  });
+});
