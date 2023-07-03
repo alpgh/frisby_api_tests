@@ -1,5 +1,5 @@
 const frisby = require('frisby');
-const TOKEN = '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';
+const TOKEN = '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';
 
 describe('Day14', () => {
     it('Getting repos list', async () => {
