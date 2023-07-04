@@ -1,5 +1,6 @@
 const frisby = require('frisby');
-const TOKEN = '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';
+require('dotenv').config();
+const TOKEN = process.env.token;
 
 describe('Day14', () => {
     it('Getting repos list', async () => {
