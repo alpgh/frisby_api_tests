@@ -16,7 +16,10 @@
     "jest-extended": "^4.0.0"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "csv-parser": "^3.0.0",
     "handlebars": "^4.7.7",
-    "joi": "^17.9.2"
+    "joi": "^17.9.2",
+    "moment": "^2.29.4"
   }
 }
