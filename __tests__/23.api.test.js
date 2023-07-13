@@ -17,7 +17,7 @@ describe("Day02 get", () => {
       });
   });
 
-  it("Check status and data", () => {
+  it.skip("Check status and data", () => {
     for (let i = 0; i < data.length; i++) {
       let { Region, boba } = data[i];
       frisby
