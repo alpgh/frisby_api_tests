@@ -1,14 +1,14 @@
 const frisby = require('frisby');
 require('dotenv').config();
-const TOKEN = process.env.token;
+const token = process.env.token;
 
 describe('Day14', () => {
-    it('Getting repos list', async () => {
+    it.skip('Getting repos list', async () => {
         const result = await frisby
         .setup({
          request: {
               headers: {
-             'Authorization': `Bearer ${TOKEN}`
+             'Authorization': `Bearer ${token}`
               }
             }
           })

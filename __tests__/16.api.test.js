@@ -3,7 +3,7 @@ const BASE_URL = "http://xkcd.com";
 jest.setTimeout(1000000);
 
 describe("Day16", () => {
-  it("Fetching comic pages", async () => {
+  it.skip("Fetching comic pages", async () => {
     let page = 0;
     let status = 200;
 

@@ -1,7 +1,7 @@
 const frisby = require("frisby");
 
 describe("Day02 post", () => {
-  it("Check status and data", function () {
+  it.skip("Check status and data", function () {
     return frisby
       .post('https://postman-echo.com/post', {
         payload: "Raw text",

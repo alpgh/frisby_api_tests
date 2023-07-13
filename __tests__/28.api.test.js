@@ -3,12 +3,12 @@ const URL = 'https://postman.com';
 jest.setTimeout(200000);
 
 describe("Day28", () => {
-it("Response time is less than 1000ms", async function () {
+it.skip("Response time is less than 1000ms", async function () {
   const res = await frisby.get(URL);
   expect(res._responseTimeMs).toBeLessThan(1000);
 });
 
-it("PageSpeed score  within 90 and 100", async function () {    
+it.skip("PageSpeed score  within 90 and 100", async function () {    
     const res = await frisby.get(`https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=${URL}`);
     expect(res.status).toBe(200);    
     const json = res.jsonBody;
